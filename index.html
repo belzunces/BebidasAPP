@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Bebidas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedido de Bebidas</h1>
+        <form id="pedidoForm">
+            <label for="mesa">Número de Mesa:</label>
+            <input type="number" id="mesa" name="mesa" min="1" required>
+            <div class="mesa">
+                <h2>Bebidas</h2>
+                <label><input type="checkbox" name="bebida" value="Americano"> Americano</label>
+                <label><input type="checkbox" name="bebida" value="Solo"> Solo</label>
+                <label><input type="checkbox" name="bebida" value="Irlandes"> Irlandes</label>
+                <label><input type="checkbox" name="bebida" value="Botellin"> Botellin</label>
+                <label><input type="checkbox" name="bebida" value="Caña"> Caña</label>
+                <label><input type="checkbox" name="bebida" value="Cola"> Cola</label>
+                <label><input type="checkbox" name="bebida" value="Spa"> Spa</label>
+                <label><input type="checkbox" name="bebida" value="Fanta"> Fanta</label>
+                <label><input type="checkbox" name="bebida" value="Bitter L"> Bitter L</label>
+                <label><input type="checkbox" name="bebida" value="Manzana"> Manzana</label>
+                <label><input type="checkbox" name="bebida" value="Fristi"> Fristi</label>
+                <label><input type="checkbox" name="bebida" value="Tinto"> Tinto</label>
+                <label><input type="checkbox" name="bebida" value="Dulce"> Dulce</label>
+                <label><input type="checkbox" name="bebida" value="Sangr"> Sangr</label>
+                <label><input type="checkbox" name="bebida" value="Chupito"> Chupito</label>
+                <label><input type="checkbox" name="bebida" value="43"> 43</label>
+                <label><input type="checkbox" name="bebida" value="Crema"> Crema</label>
+                <label><input type="checkbox" name="bebida" value="Cortado"> Cortado</label>
+                <label><input type="checkbox" name="bebida" value="Con Leche"> Con Leche</label>
+                <label><input type="checkbox" name="bebida" value="Capuccino"> Capuccino</label>
+                <label><input type="checkbox" name="bebida" value="Estrella"> Estrella</label>
+                <label><input type="checkbox" name="bebida" value="0,0"> 0,0</label>
+                <label><input type="checkbox" name="bebida" value="Light"> Light</label>
+                <label><input type="checkbox" name="bebida" value="Rojo"> Rojo</label>
+                <label><input type="checkbox" name="bebida" value="Ice Thee"> Ice Thee</label>
+                <label><input type="checkbox" name="bebida" value="Sprite"> Sprite</label>
+                <label><input type="checkbox" name="bebida" value="Cassis"> Cassis</label>
+                <label><input type="checkbox" name="bebida" value="Chocomel"> Chocomel</label>
+                <label><input type="checkbox" name="bebida" value="Blanco"> Blanco</label>
+                <label><input type="checkbox" name="bebida" value="Verano"> Verano</label>
+                <label><input type="checkbox" name="bebida" value="Cava"> Cava</label>
+                <label><input type="checkbox" name="bebida" value="Caramelo+"> Caramelo+</label>
+                <label><input type="checkbox" name="bebida" value="Torres"> Torres</label>
+            </div>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
