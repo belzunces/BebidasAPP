@@ -28,6 +28,11 @@ label {
     margin-bottom: 10px;
 }
 
+input[type="number"] {
+    margin-left: 10px;
+    width: 50px;
+}
+
 button {
     padding: 10px;
     background: #007BFF;
